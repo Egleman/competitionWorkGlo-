@@ -1,7 +1,6 @@
 import { getData } from './getData';
 const render = () => {
     const table = document.querySelector('.table');
-    const db = './db/dbHeroes.json';
     const filter = document.querySelector('.filter');
     
     let newActors = {};
