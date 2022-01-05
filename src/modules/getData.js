@@ -1,5 +1,4 @@
 const getData = (data) => {
-    //const db = './db/dbHeroes.json';
     fetch('./db/dbHeroes.json')
     .then(response => {
         return response.json();
